@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5">
+
+                <div class="login-form-1">
+                        <div class="main-login-form">
+                            <div class="login-group">
+                                    <label for="lg_username" class="sr-only">Username</label>
+                                    <input type="text" id="username" class="form-control" name="lg_username"
+                                           placeholder="username">
+
+                                    <br>
+                                    <label for="lg_password" class="sr-only">Password</label>
+                                    <input type="text" id ="password" class="form-control" name="lg_password"
+                                           placeholder="password">
+                                </div>
+                            </div>
+                            <button type="submit" class="login-button" id="submit">Submit<i class="fa fa-chevron-right"></i></button>
+
+
+            </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+
+	<!-- end:Main Form -->
+
+
+
+{% endblock %}
